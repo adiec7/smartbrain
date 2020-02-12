@@ -1,0 +1,99 @@
+.form{
+	display: flex;
+	flex-direction: column;
+	width: 700px;    
+	background-size: 30px 30px, 90px 90px; 
+	background-position: 0 0;
+}
+
+.entry-form{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin: 14px 0;
+
+}
+
+
+.entry-form h1 {
+	transform: translate(-50px, 10px);
+}
+
+.form button{
+	width: 90px;
+	margin: 20px auto;
+}
+
+.form_select{
+	border: solid blue 1px;
+	height: 50px;
+	width: 240px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	background-color: rgb(55, 154, 235);
+}
+
+.form_select label{
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.form_select:hover{
+	background-color: rgb(101, 189, 196);
+}
+
+.text_input input{
+	width: 450px;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid rgb(3, 3, 20);
+	background-color: transparent;
+	color: white;
+
+}
+
+.text_input input:hover, .text_input input:focus{
+	background-color: black;
+	border: 1px solid rgb(214, 214, 247);	
+}
+
+.text_input h5{
+	margin: 0 auto;
+	color: red
+}
+
+.form button{
+	width: 100px;
+	height: 35px;
+	border-radius: 5px;
+}
+
+.info{
+	font-size: 26px;
+	width: 500px;
+	margin: 32px auto;
+	min-height: 80px;
+	box-shadow: 2px 2px 3px rgba(6, 69, 105,0.7);
+	border-radius: 2px;
+}
+
+.sweeet-loading{
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+@media (max-width: 600px){
+	.text_input input {
+		width: 95vw;
+	}
+
+	.info{
+		width: 95vw
+	}
+}

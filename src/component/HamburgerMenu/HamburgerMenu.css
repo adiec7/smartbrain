@@ -1,0 +1,52 @@
+.HamburgerOuter {
+    width: 65px;
+    height: 55%;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    margin: auto;
+    margin-right: 9%;
+    border: 1px solid rgba(3, 68, 105, 1);
+    border-radius: 5px;
+    background-color: rgba(3, 68, 105, 0.25);
+}
+.HamburgerMenu {
+    background-color: inherit;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.HamburgerMenu div{
+    width: 70%;
+    height: 4px;
+    background-color: rgb(189, 186, 185);
+    transition: all 0.40s ease-out;
+    border-radius:  15%;
+    
+}
+
+.RotateTop {
+    transform-origin: 100%;
+    transform: rotate(-40deg) translate(-5px, 1px);
+}
+
+.RotateBottom {
+    transform: translate(0,-20px) rotate(399deg)
+}
+
+.MoveLeft {
+    transform: translateX(200px);
+    z-index: 200;
+    background: white;
+}
+
+@media (min-width:601px){
+    .HamburgerOuter  {
+        display: none;
+    }
+}

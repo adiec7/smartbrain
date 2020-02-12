@@ -1,0 +1,40 @@
+ .bounding-box {
+    position: absolute;
+    border: solid 2px #149df2;
+    border-radius: 5%;
+    
+}
+
+.face_image{
+    position: relative;
+    width: 500px;
+    margin: auto;
+    z-index: 10;
+}
+
+.face_image img {
+    width: 100%;
+}
+
+.table {
+    width: 500px;
+    margin: 20px auto;
+    box-shadow: 5px 5px 3px rgba(6, 69, 105,0.7);
+    background-color: rgba(152, 195, 224,0.5)
+}
+
+.table table {
+    width: 100%
+}
+
+@media (max-width: 600px){
+    .table{
+        width: 100vw;
+    }
+
+    .face_image{
+        width: 100vw;
+    }
+
+    
+}

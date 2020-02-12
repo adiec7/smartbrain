@@ -1,0 +1,25 @@
+.error{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+.error_message{
+    background-color: white;
+    border-radius: 5px;
+    z-index: 200;
+    width: 300px;
+    height: 100px;
+    margin: 10px auto;
+    position: relative;
+    left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.error_message button{
+width: 50px
+}
